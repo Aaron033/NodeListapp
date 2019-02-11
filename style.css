@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: palevioletred;
+    margin: 0;
+    padding: 0;
+}
+
+.fruits{
+    height: 20px;
+    width: 60px; 
+    line-height: 3px;
+    background-color: pink
+   
+}
+#demo{
+    display: none;
+    background-color: peachpuff;
+
+}
+
+nav ul{
+    display: flex;
+   flex-direction: row;
+    background-color:papayawhip;
+}
+
+nav ul li{
+    list-style: none; 
+    padding-right: 10px;
+}
+
+
