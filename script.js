@@ -11,7 +11,6 @@ var words = JSON.parse(data); // This will give you readable data that you can a
 var app = express(); 
 var server = app.listen(3000, listening); 
 
-
 function listening(){
     console.log("listening ..."); 
 }
@@ -52,9 +51,6 @@ function addWord(request, response){
 //    for (var i = 0; i < num; i++){
 //        reply += " I love " + data.flower + " too";
 //    }(check Screen shot in folder)
-
-   
-
 }
 app.get('/all', sendAll);
 function sendAll(request, response){
