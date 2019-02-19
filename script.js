@@ -1,8 +1,8 @@
 //.stringify() gives you the string {"result:" 45}
-//.parse() you can access the result by something.result = 45
+//.parse() you can access the result by (something.result) = 45
 
 var fs = require('fs');  //This is part of node 
-var express = require('express'); 
+var express = require('express'); //This uses npm
 
 //var http = require('http');
 var data = fs.readFileSync('words.json'); //This will give raw data 
@@ -17,7 +17,8 @@ function listening(){
 app.use(express.static('website'));
 //The colon info infront of it tells that the user is searching for something  
 app.get('/add/:word/:score?', addWord); // sendflower is the callback (check Screen shot in folder)
-//if you dont add a score the ? is going to make it work 
+//if you dont add a score the ? is going to make it okay to to have a value
+
 //Takes two arguments 
 function addWord(request, response){
 //    response.send("I love dogs and flowers");(check Screen shot in folder)
@@ -34,7 +35,7 @@ function addWord(request, response){
              response.send(reply)
     }else{
             words[word] = score; // It takes the word object and it inserts the first/:word and then ???
-        var data = JSON.stringify(words, null, 2);// 
+        var data = JSON.stringify(words, null, 2);
         fs.writeFile('words.json', data, finished); //Write file is part of the node library, finished is the comeback / Also it will write whatever is passed as a long string/ The 2 is for make it as a "list" 
         function finished(err){
             console.log('all set')

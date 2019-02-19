@@ -1,18 +1,18 @@
 {
-  "rainbow": 5,
-  "unicorn": 3,
-  "doom": -3,
-  "gloom": -2,
-  "red": 499,
-  "orange": 33,
-  "pink": 334,
-  "blue": 54,
-  "god": 1000,
+   "rainbow": 5,
+   "unicorn": 3,
+   "doom": -3,
+   "gloom": -2,
+   "red": 499,
+   "orange": 33,
+   "pink": 334,
+   "blue": 54,
+   "god": 1000,
     "pineapple": 1003,
     "truck": 2334,
     "jeep": 322,
     "gmc" : 32,
     "milk": 3,
-    "juice": 43, 
+    "juice": 43
     
 }
