@@ -4,7 +4,3 @@ function setup() {
 
 }
 
-function gotData(data){
-    console.log(data);
-}
-
