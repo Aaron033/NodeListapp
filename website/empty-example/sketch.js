@@ -1,7 +1,7 @@
 function setup() {
  createCanvas(400, 400);
     background(51);
-    loadJSON('/all', gotData); 
+    loadJSON('../all', gotData); 
     console.log('Running');
 }
 
